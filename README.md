@@ -5,12 +5,12 @@
 
 # 安装依赖
 
-  pip install PyQt5==5.15.11
+  `pip install PyQt5==5.15.11`
 
 # 构建成exe 文件
 
-  pip install pyinstaller=6.13.0
-  pyinstaller -F -w mini-clock.py
+  `pip install pyinstaller=6.13.0`
+  `pyinstaller -F -w mini-clock.py`
 
 
 # 功能介绍
