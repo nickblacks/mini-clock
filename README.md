@@ -9,7 +9,8 @@
 
 # 构建成exe 文件
 
-  `pip install pyinstaller=6.13.0`
+  `pip install pyinstaller=6.13.0` 
+  
   `pyinstaller -F -w mini-clock.py`
 
 
