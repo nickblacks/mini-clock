@@ -42,7 +42,7 @@ class Clock(QtWidgets.QWidget):
         # 创建定时器用于更新时间
         self.timer = QtCore.QTimer(self)
         self.timer.timeout.connect(self.updateTime)
-        self.timer.start(1000)
+        self.timer.start(800)
         self.last_time = ""
         self.updateTime()
 
